@@ -1,15 +1,12 @@
 import React from "react";
 import "./app.css";
 import Navbar from "./components/Navbar";
-// import {Routes,Route} from "react-router-dom";
-
 import { Routes, Route, Navigate } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
 import ProfilePage  from "./pages/ProfilePage";
 import SettingsPage from "./pages/SettingsPage";
-// import { useStore } from "zustand";
 import { useAuthStore } from "./store/useAuthStore";
 import { useEffect } from "react";
 import {Loader} from "lucide-react";
